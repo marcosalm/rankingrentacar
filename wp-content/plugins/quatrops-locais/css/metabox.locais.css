@@ -1,0 +1,62 @@
+/* Metabox Inner */
+#meta-box-local .inside { 
+	margin: 0; 
+	padding: 0;
+}
+.meta-box-local-wrap {
+	padding: 0 10px;
+	border-bottom: #e8e8e8 solid 1px;
+	padding-bottom: 13px;
+}
+.meta-box-local-wrap .meta-box-local-field {
+	position: relative;
+	margin: 10px 0 0 0;
+}
+.meta-box-local-wrap .meta-box-local-field label { 
+	font-size: 13px;
+	font-weight: bold;
+	color: #333333;
+}
+.meta-box-local-wrap .meta-box-local-field p { 
+	line-height: 1.1em;
+	margin: 0 0 5px 0;
+	padding: 0;
+	color: #000000;
+	text-shadow: 0 1px 0 #ffffff;
+}
+.meta-box-local-wrap .mandatory {
+	color: #ff0000;
+}
+.meta-box-local-wrap .margin-top {
+	margin-top: 10px;
+}
+.meta-box-local-wrap .note {
+	background-color: #ffffff; 
+	border: #c0c0c0 1px dashed; 
+	padding: 5px;
+}
+.meta-box-local-wrap .meta-box-local-field p.description { 
+	font-size: 11px;
+	font-style: normal !important;
+	color: #666666;
+}
+.meta-box-local-wrap .separator {
+	border-bottom: #e8e8e8 solid 1px;
+}
+.meta-box-local-wrap input[type=text] { width: 100%; }
+
+/* Metabox Tabs */
+#meta-box-local .inside #tabs { 
+	background: 0; 
+	border: 0; 
+}
+#meta-box-local .inside .ui-tabs, #meta-box-local .inside .ui-tabs-panel { 
+	padding: 0;
+}
+#meta-box-local .inside .ui-widget-header { 
+	background: 0; 
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: #d3d3d3;
+	border-radius: 0;
+}

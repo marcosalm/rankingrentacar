@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2013-09-09 18:05-0300\n"
+"PO-Revision-Date: 2013-09-10 09:16-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Language: pt\n"
+
+msgid "Keywords"
+msgstr "Palavras-chaves"
+
+msgid "Insert a list of desired keywords"
+msgstr "Insira uma lista de palavras-chaves desejadas"
+
+msgid "Insert a short description for this page or post"
+msgstr "Insira uma descrição curta sobre esta página ou post"
+
+msgid "Description"
+msgstr "Descrição"
+
+msgid "Use global settings (not recomended)"
+msgstr "Utilizar configurações genéricas (Não recomendado)"
+
+msgid "Basic SEO Options"
+msgstr "Basic SEO Configurações"
+
+msgid "Basic Settings"
+msgstr "Configurações Básicas"
+
+msgid ""
+"From here you can set the default values for the <code>keywords</code> and "
+"<code>description</code> meta tags. These values will be used for all the "
+"posts and pages which don't have their custom ones."
+msgstr ""
+"Nesta parte você poderá definir os valores padrões das meta tags "
+"<code>palavras-chaves</code> e <code>descrição</code>. Esses valores serão "
+"utilizados em todos os posts e páginas onde os mesmos não forem definidos"
+
+msgid "Insert 3-12 kewords or key phrases separating them with commas."
+msgstr ""
+"Insira de 3-12 palavras-chaves ou frases separando-as utilizando vírgula"
+
+msgid "Insert a description containing more or less 5-24 words."
+msgstr "Insira uma descrição contendo aproximadamente 5-24 palavras"
+
+msgid "Search Engine and Analytics options"
+msgstr "Configurações Search Engine e Analytics"
+
+msgid ""
+"From here you can fill the SEO verification meta tags like <code>Google</"
+"code>, <code>bing</code> and <code>alexa</code> webmaster tools meta tags "
+"and <code>Google Analytics</code>. If you don't like, just give it away."
+msgstr ""
+"Nesta parte você poderá preencher as meta tags de verificação SEO para "
+"<code>Google</code>, <code>Bing</code>, <code>Alexa</code> e código de "
+"<code>Google Analytics</code>. Todos os campos são de preenchimento "
+"<strong>opcional</strong>"
+
+msgid "Google verification"
+msgstr "Verificação Google"
+
+msgid "Insert a google webmaster verification meta tag."
+msgstr "Insira a meta tag de verificação Google"
+
+msgid "Bing verification"
+msgstr "Verificação Bing"
+
+msgid "Insert a bing webmaster verification meta tag."
+msgstr "Insira a meta tag de verificação Bing"
+
+msgid "Alexa verification"
+msgstr "Verificação Alexa"
+
+msgid "Insert a alexa verification meta tag."
+msgstr "Insira a meta tag de verificação Alexa"
+
+msgid "Insert a google analytics tracker code. Sample: UA-XXXXXXXX-X"
+msgstr "Insira o seu código de Google Analytics. Exemplo: UA-XXXXXXXX-X"
+
+msgid "Save Changes"
+msgstr "Salvar mudanças"

@@ -1,0 +1,48 @@
+/*
+	
+	Copyright (C) 2011 - 4Ps
+	
+	-------------------------------------------------------
+	Ajustes genéricos do HTML
+	-------------------------------------------------------
+
+*/
+
+/* MAIN TYPOGRAPHY */
+html { font-size: 62.5%; font-family: arial, verdana; height:100% }
+strong, th, thead td, h1, h2, h3, h4, h5, h6, dt { font-weight: bold; }
+cite, em, dfn { font-style: italic; }
+code, kbd, samp, pre, tt, var, input[type='text'], input[type='password'], textarea { /*font-size: 92%; font-family: arial, verdana;*/ }
+pre { white-space: pre; }
+pre * { font-size: 100%; white-space: pre; }
+del { text-decoration: line-through; color: #666; }
+ins, dfn { border-bottom: 1px solid #ccc; }
+small, sup, sub { font-size: 85%; }
+big { font-size: 125%; line-height: 80%; }
+abbr, acronym { text-transform: uppercase; font-size: 85%; letter-spacing: .1em; }
+a abbr, a acronym { border: none; }
+abbr[title], acronym[title], dfn[title] { cursor: help; border-bottom: 1px solid #ccc; }
+sup { vertical-align: super; }
+sub { vertical-align: sub; }
+
+/* QUOTES */
+blockquote { border: 1px solid #ccc; padding:10px; margin-bottom:15px; color: #666; }
+blockquote > *:before { /*content: "\201C";*/ }
+blockquote > *:after { /*content: "\201D";*/ }
+blockquote ul { margin:10px 0; }
+
+/* language specific quotes! */
+q { quotes: "\201C" "\201D" "\2018" "\2019"; }
+:lang(af), :lang(nl), :lang(pl) { quotes: '\201E' '\201D' '\201A' '\2019'; }
+:lang(bg), :lang(cs), :lang(de), :lang(is), :lang(lt), :lang(sk), :lang(sr), :lang(ro) { quotes: '\201E' '\201C' '\201A' '\2018'; }
+:lang(da), :lang(hr) { quotes: '\00BB' '\00AB' '\203A' '\2039'; }
+:lang(el), :lang(es), :lang(sq), :lang(tr) { quotes: '\00AB' '\00BB' '\2039' '\203A'; }
+:lang(en-GB) { quotes: '\2018' '\2019' '\201C' '\201D'; }
+:lang(fi), :lang(sv) { quotes: '\201D' '\201D' '\2019' '\2019'; }
+:lang(fr) { quotes: '\ab\2005' '\2005\bb' '\2039\2005' '\2005\203a'; }
+
+/* NOTE: safari refuses to support the quotes syntax. I only added the english language quotes for safari to save space. */
+*[lang|='en'] q:before   { content: '\201C'; }
+*[lang|='en'] q:after    { content: '\201D'; }
+*[lang|='en'] q q:before { content: '\2018'; }
+*[lang|='en'] q q:after  { content: '\2019'; }

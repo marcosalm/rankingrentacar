@@ -1,0 +1,33 @@
+/*
+	
+	Copyright (C) 2011 - 4Ps
+	
+	-------------------------------------------------------
+	Ajustes na renderizaÃ§Ã£o do Internet Explorer
+	-------------------------------------------------------
+
+*/
+
+.content legend{margin-bottom:1.6em} /* IE form margin bug */
+sup, sub{font-size:100%} /* IE superscript & subscript bug */
+* html .content textarea, * html .content input{padding:0} /* IE < 7 form fix */
+.content input[type='submit'], .content input[type='button']{padding:0} /* IE 7 button fix */
+.content legend+*{margin-top:0} /* we already added legend margin */
+a abbr, a acronym{text-decoration:underline} /* IE 7 bug */
+* html .content blockquote *{margin:.8em 0}
+
+
+.grid { *margin-bottom:30px; }
+.noticiasTema .relControle { *margin-top:-30px; }
+.subCapa li { *width:100%; }
+.allSite { *padding-bottom:40px; }
+.materia .relControle { *margin-top:-23px; }
+
+
+#ur-container { *width:440px !important; *float:left !important; *position:relative; }
+
+#ur-container .jcarousel-prev-horizontal { *right:-415px !important; }
+#ur-container .jcarousel-next-horizontal { *right:-440px !important }
+
+.banner .jcarousel-prev-horizontal { *right:-564px !important; }
+.banner .jcarousel-next-horizontal { *right:-600px !important }
